@@ -1,0 +1,254 @@
+@media (min-width: 991px) {
+  .responsive-menu {
+    display: none;
+  }
+  .search-btn i:hover {
+    transform: rotate(360deg);
+  }
+ 
+}
+@media (max-width: 1200px) and (min-width: 991px) {
+}
+@media (max-width: 991px) {
+  .bootom-footer {
+    margin-bottom: 60px;
+  }
+  footer {
+    padding: 40px 0 20px;
+    margin-top: 0px;
+  }
+  .mynav , .topbar .left-topheader {
+    display: none;
+  }
+.partner{
+  padding-bottom: 30px;
+}
+
+.site-search .woocommerce-product-search, 
+.site-search .widget_search .search-form {
+  width: 93%;
+}
+}
+@media (max-width: 768px) {
+  .slider-info h2 {
+    font-size: 21px;
+    line-height: 32px;
+  }
+  .home-slider, .home-slider .item,
+   .home-slider .item .container,
+    .home-slider .item .container .row {
+    min-height: 540px;
+  }
+  .col-lg-4{
+    padding: 0 15px;
+  }
+  .logo {
+    height: 54px;
+}
+.section-desc,.right-footer p{
+  width: 100%;
+}
+.services::before, .services::after,
+.partner::after,.partner::before{
+  display: none;
+}
+.service-item {
+  background-color: var(--bg-color);
+  padding: 38px 28px;
+}
+  section {
+    padding: 34px 0;
+  }
+
+  .slider-info p {
+    margin: 16px 0;
+  }
+ 
+  .slider-info{
+    text-align: center;
+  }
+  .slider-home.owl-theme .owl-dots {
+    bottom: 46px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+  }
+
+.gllery .section-title h6 {
+  font-size: 15px;
+}
+  .footer-img {
+    margin-top: 30px;
+}
+footer .contact-form {
+  padding: 48px 20px 10px;
+}
+.right-footer, .contact-list {
+  padding-top: 14px;
+}
+
+.animate__fadeInLeft,.animate__fadeInRight{
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+footer .col-md-8 .row .col-md-6:nth-child(1) {
+  margin-top: 10px;
+  padding: 0 15px;
+}
+footer .col-md-8 .row {
+  flex-direction: column-reverse;
+  margin-top: 32px;
+}
+.comp-rights {
+  text-align: center;
+}
+.contact-list {
+  margin-inline-start: 0;
+}
+.comp-right {
+  margin-top: 30px;
+}
+.sponser-img {
+  height: 132px;
+}
+.sponser-img img {
+  max-width: 78%;
+}
+.section-desc {
+  margin-bottom: 26px;
+}
+.section-title {
+  margin-bottom: 16px;
+}
+.section-title h4{
+  padding-bottom: 10px;
+}
+.all-equipment {
+  height: 320px;
+}
+.all-equipment .more h4 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.service-item h4 {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.service-item{
+  margin-bottom: 22px;
+}
+.service-item h4::after {
+  bottom: -12px;
+}
+.vission-sec .row{
+  padding-inline: 0px;
+}
+.vission-item {
+  padding: 28px 14px;
+  margin-bottom: 22px;
+}
+.about-img {
+  height: 300px;
+}
+.breadcrumb-section{
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.breadcrumb-info h2 {
+  font-size: 22px;
+}
+.card-body p{
+  margin-bottom: 10px;
+  width: 100%;
+}
+.page-content{
+  overflow: hidden;
+}
+.page-content::before,
+.page-content::after{
+  display: none;
+}
+.input-group.upload {
+  margin-bottom: 0px;
+}
+.more button{
+  min-width: 160px;
+}
+.career-page .contact-form .more {
+  margin-top: 20px;
+}
+.text-faq{
+  margin-top: 38px;
+}
+.career-page h3 {
+  font-size: 22px;
+  margin-bottom: 22px;
+  padding-bottom: 16px;
+}
+.contact-page-list{
+  margin-inline-start: 0px;
+  width: 100%;
+  margin-top: 32px;
+}
+.contact-page-list ul li{
+margin-bottom: 18px;
+flex-wrap: wrap;
+}
+.contact-page-list .section-title h4 {
+  font-size: 17px;
+}
+.contact-page .footer-sochial {
+  margin-top: 30px;
+}
+.career-page.contact-page .contact-form .more {
+  margin-top: 0;
+}
+.contact-map{
+  height: 307px;
+}
+.modal-body {
+  padding: 22px 14px;
+}
+.services-page .section-title h4,.equipments .section-title h4{
+  font-size: 20px;
+}
+.single-product{
+  padding-top: 40px;
+}
+.single-product-info{
+  margin-bottom: 48px;
+  padding-top: 0;
+}
+.single-product-info h4 {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+#big_image .single-img,#big_image,
+.single-service-img .single-img,
+ .single-service-img{
+  height: 300px;
+}
+#big_image::after, .single-service-img::after{
+  height: 330px;
+}
+div#thumbs_gallary {
+  width: 64%;
+}
+#pop_up .contact-form form textarea ,
+#pop_up-single .contact-form form textarea {
+  height: 100px;
+}
+.single-product-info .more button {
+  min-width: 180px;
+}
+}
+@media (max-width: 425px) {
+  .section-title h4{
+    font-size: 19px;
+  }
+
+  .sidebar{
+    width: 320px;
+  }
+
+}
